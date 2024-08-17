@@ -1,6 +1,7 @@
 import pandas as pd
 
 # Carga una hoja específica del archivo Excel en un DataFrame
+#add xlsx
 df = pd.read_excel(r"listado_aranceles_de_referencia_2024_cft-ip-ffaa_12012024.xlsx", sheet_name='Arancel Refer CFT-IP 2024')
 
 # Muestra las primeras 7 filas de esa hoja
